@@ -2,8 +2,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Alumno a = new Alumno();
-        a.generarCarnet("BP080489");
-        System.out.println(a.carnet);
+        Alumno a = new Alumno("Milena");
+        System.out.println(a.primer_apellido);
+        a.primer_apellido = "Mauricio";
+        System.out.println(a.primer_apellido);
     }
 }
