@@ -10,5 +10,9 @@ public class Main {
         a.nombre = "Alexa";
         System.out.println(a.obtenerNombre());
         System.out.println(a.obtenerNombre("Marco"));
+        AlumnoBecado b = new AlumnoBecado();
+        b.nombre = "Juan";
+        b.mostrarNombre();
+
     }
 }
