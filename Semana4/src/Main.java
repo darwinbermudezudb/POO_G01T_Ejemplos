@@ -6,5 +6,9 @@ public class Main {
         System.out.println(a.primer_apellido);
         a.primer_apellido = "Mauricio";
         System.out.println(a.primer_apellido);
+        System.out.println(a.nombre);
+        a.nombre = "Alexa";
+        System.out.println(a.obtenerNombre());
+        System.out.println(a.obtenerNombre("Marco"));
     }
 }

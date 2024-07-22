@@ -13,8 +13,12 @@ public class Alumno {
         this.primer_apellido = primer_apellido;
     }
 
-    public String generarCarnet(String carnet){
-        return this.carnet = carnet;
+    public String obtenerNombre(){
+        return this.nombre;
+    }
+
+    public String obtenerNombre(String nombre){
+        return this.nombre = nombre;
     }
 
 
