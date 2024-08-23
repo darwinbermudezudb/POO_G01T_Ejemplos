@@ -1,0 +1,12 @@
+D:\UDB\2024\CICLO II\DSP\lab\desafio I\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+D:\UDB\2024\CICLO II\DSP\lab\desafio I\Ejercicio1\bin\Debug\Ejercicio1.exe
+D:\UDB\2024\CICLO II\DSP\lab\desafio I\Ejercicio1\bin\Debug\Ejercicio1.pdb
+D:\UDB\2024\CICLO II\DSP\lab\desafio I\Ejercicio1\obj\Debug\Ejercicio1.csprojAssemblyReference.cache
+D:\UDB\2024\CICLO II\DSP\lab\desafio I\Ejercicio1\obj\Debug\Ejercicio1.Form1.resources
+D:\UDB\2024\CICLO II\DSP\lab\desafio I\Ejercicio1\obj\Debug\Ejercicio1.Properties.Resources.resources
+D:\UDB\2024\CICLO II\DSP\lab\desafio I\Ejercicio1\obj\Debug\Ejercicio1.csproj.GenerateResource.cache
+D:\UDB\2024\CICLO II\DSP\lab\desafio I\Ejercicio1\obj\Debug\Ejercicio1.csproj.CoreCompileInputs.cache
+D:\UDB\2024\CICLO II\DSP\lab\desafio I\Ejercicio1\obj\Debug\Ejercicio1.exe
+D:\UDB\2024\CICLO II\DSP\lab\desafio I\Ejercicio1\obj\Debug\Ejercicio1.pdb
+D:\UDB\2024\CICLO II\DSP\lab\desafio I\Ejercicio1\obj\Debug\Ejercicio1.Login.resources
+D:\UDB\2024\CICLO II\DSP\lab\desafio I\Ejercicio1\obj\Debug\Ejercicio1.Principal.resources
