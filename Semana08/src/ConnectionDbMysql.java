@@ -6,7 +6,9 @@ public class ConnectionDbMysql {
     private int puerto;
     private String db_name;
     private String clave;
-    public Statement stmt;
+    private Statement stmt;
+    private Connection conn;
+    public PreparedStatement pd_stmt;
 
     public ConnectionDbMysql(){
         this.dominio = "jdbc:mysql://localhost";
@@ -14,26 +16,23 @@ public class ConnectionDbMysql {
         this.usuario = "root";
         this.db_name = "miBD";
         this.clave = "abc123";
-    }
 
-    public void connet(){
         try{
             String stringconnection = this.dominio + ":" + this.puerto + "/" + this.db_name;
-            Connection conn = DriverManager.getConnection(stringconnection, this.usuario, this.clave);
-            this.stmt = conn.createStatement();
+            this.conn = DriverManager.getConnection(stringconnection, this.usuario, this.clave);
         }catch (SQLException e){
             System.out.println(e.getMessage());
         }
     }
 
-    public void consultar(String query) throws SQLException {
-        ResultSet rs = this.stmt.executeQuery(query);
-        while (rs.next()){
-            int id = rs.getInt("id");
-            String nombre = rs.getString("nombre");
-            int edad = rs.getInt("edad");
 
-            System.out.println("El identificador es: " + id + ", el nombre es: " + nombre + " y la edad esL " + edad);
-        }
+    public ResultSet consultar(String query) throws SQLException {
+        this.stmt = this.conn.createStatement();
+        ResultSet rs = this.stmt.executeQuery(query);
+        return rs;
+    }
+
+    public void create(String query) throws SQLException {
+        this.pd_stmt = this.conn.prepareStatement(query);
     }
 }
